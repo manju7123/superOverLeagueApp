@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+.bg-heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+img {
+  width: 100px;
+}
+@media (min-width: "768px") {
+  .bg-heading {
+    font-size: 30px;
+  }
+  img {
+    width: 300px;
+  }
+}
